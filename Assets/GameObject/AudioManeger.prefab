@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4510726970349094567
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4728592134579784122}
+  - component: {fileID: 6123915024905687641}
+  m_Layer: 0
+  m_Name: AudioManeger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4728592134579784122
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4510726970349094567}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 244.64337, y: 415.81268, z: -172.49464}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6123915024905687641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4510726970349094567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d774e82dc7631e5459031299231ea217, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound1s:
+  - name: aa6
+    clip: {fileID: 8300000, guid: 04af6ee020e533d48a6970a8e02f02d6, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ac6
+    clip: {fileID: 8300000, guid: d39692039d3195b459da09350254539f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ac7
+    clip: {fileID: 8300000, guid: a7ccd9097bb05984d8497f8ecbd1d81f, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ad6
+    clip: {fileID: 8300000, guid: adcba640b97d9354bb46d84eb46c0981, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ae6
+    clip: {fileID: 8300000, guid: c05fe742c17f87d4e9889cb30f9e40fe, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: af6
+    clip: {fileID: 8300000, guid: d722195a6ea30644da9dab2107988c7c, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ag6
+    clip: {fileID: 8300000, guid: 5cef2ba3d26110d499fcd28a3cddb070, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: ah6
+    clip: {fileID: 8300000, guid: 3e697e8b00b5dc0408e01bb7d75c9339, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  sound2s:
+  - name: True
+    clip: {fileID: 8300000, guid: 87e6aa71ff9af3945934d34b1069b954, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: False
+    clip: {fileID: 8300000, guid: 72f8b8d6422c3ac478b504e4e933ab26, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 3a7f15a0a5386a640b8e54031b096d6d, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
